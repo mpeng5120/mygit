@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table_listitem"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:background="@color/black"
+    android:descendantFocusability="blocksDescendants" >
+
+    <TextView
+        android:id="@+id/addressText"
+        android:layout_width="50dp"
+        android:layout_height="52dp"
+        android:layout_gravity="left|center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/symbolNameEditText"
+        android:layout_width="50dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:focusable="false"
+        android:gravity="center|left"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/signalNameEditText"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="3"
+        android:background="@color/white"
+        android:focusable="false"
+        android:gravity="center|left" />
+
+    <TextView
+        android:id="@+id/noteEditText"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="3"
+        android:background="@color/white"
+        android:gravity="center|left"
+        android:singleLine="true" />
+
+</LinearLayout>

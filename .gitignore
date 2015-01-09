@@ -71,3 +71,11 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+  *.class
+  bin/
+  gen/
+  .settings/
+  proguard/
+  .svn

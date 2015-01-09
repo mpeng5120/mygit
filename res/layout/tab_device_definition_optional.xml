@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ncEditLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+     <LinearLayout
+         android:id="@+id/linearlayout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@color/black" >
+
+         <TextView
+             android:id="@+id/PSpinnerTextView"
+             android:layout_width="79dp"
+             android:layout_height="wrap_content"
+             android:layout_margin="1dp"
+             android:layout_weight="1"
+             android:background="@color/gray"
+             android:gravity="center"
+             android:text="@string/programming_device_address" />
+
+         <TextView
+             android:id="@+id/tname1"
+             android:layout_width="150dp"
+             android:layout_height="wrap_content"
+             android:layout_margin="1dp"
+             android:layout_weight="1"
+             android:background="@color/gray"
+             android:gravity="center"
+             android:text="@string/T_Optionaloperate" />
+
+         <TextView
+             android:id="@+id/tname2"
+             android:layout_width="150dp"
+             android:layout_height="wrap_content"
+             android:layout_margin="1dp"
+             android:layout_weight="1"
+             android:background="@color/gray"
+             android:gravity="center"
+             android:text="@string/i_symbolName" />
+                  
+        <TextView
+             android:id="@+id/tname3"
+             android:layout_width="150dp"
+             android:layout_height="wrap_content"
+             android:layout_margin="1dp"
+             android:layout_weight="1"
+             android:background="@color/gray"
+             android:gravity="center"
+             android:text="@string/o_symbolName" />
+
+    </LinearLayout>
+
+     <ListView
+         android:id="@+id/list"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/linearlayout" >
+
+     </ListView>
+   
+</RelativeLayout>

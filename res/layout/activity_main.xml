@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+		   	<LinearLayout
+		   	     android:id="@+id/tab2_layout"
+		         android:layout_width="match_parent"
+		         android:layout_height="0dip"		         
+		         android:layout_weight="5"
+		         android:orientation="horizontal">
+		    <!-- 装载列表的Fragment 的容器 -->
+		    <LinearLayout 
+		        android:id="@+id/list_container"
+		        android:layout_width="match_parent"
+		  		android:layout_height="match_parent"		  		
+		  		android:layout_weight="2">
+		    </LinearLayout>
+		    <!-- 装载详情的Fragment 的容器 -->
+		    <LinearLayout 
+		        android:id="@+id/detail_container"
+		        android:layout_width="match_parent"
+		  		android:layout_height="match_parent"		  		
+		  		android:layout_weight="1">
+		    </LinearLayout>		    
+		    </LinearLayout>
+		    <LinearLayout 
+		        android:id="@+id/fragment_container1"
+		        android:visibility="gone"
+		        android:layout_width="match_parent"
+		  		android:layout_height="0dip"		  		
+		  		android:layout_weight="5">
+		    </LinearLayout>
+ 
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:orientation="horizontal"
+            android:background="@color/gray"
+            android:layout_weight="0.75">
+     <TextView
+ 	    android:id="@+id/ModleInfo"
+ 	    android:layout_width="0dip"
+ 	    android:layout_height="match_parent"
+ 	    android:layout_weight="2"
+ 	    android:textSize="20dip"
+ 	    android:text="模具编号：" />   
+     <Button
+  	    android:id="@+id/button1"
+  	    android:layout_width="0dip"
+  	    android:layout_height="match_parent"
+  	    android:layout_weight="1"
+  	    android:text="原点" />
+
+  	<Button
+  	    android:id="@+id/button3"
+  	    android:layout_width="0dip"
+  	    android:layout_height="match_parent"
+  	    android:layout_weight="1"
+  	    android:text="自动" />
+
+  	<Button
+  	    android:id="@+id/button4"
+  	    android:layout_width="0dip"
+  	    android:layout_height="match_parent"
+  	    android:layout_weight="1"
+  	    android:text="单步进" />
+  	<Button
+  	    android:id="@+id/button5"
+  	    android:layout_width="0dip"
+  	    android:layout_height="match_parent"
+  	    android:layout_weight="1"
+  	    android:text="单循环" />
+    </LinearLayout>
+</LinearLayout>

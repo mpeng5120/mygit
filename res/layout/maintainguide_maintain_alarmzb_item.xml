@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listRowContent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    android:descendantFocusability="blocksDescendants" >
+
+     <TextView
+             android:id="@+id/alarmzbnum"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="left|center_vertical"
+             android:layout_margin="1dp"
+             android:layout_weight="1.6"
+             android:background="@color/white"
+             android:gravity="center" />
+
+         <TextView
+             android:id="@+id/alarmzbName"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_margin="1dp"
+             android:layout_weight="1.4"
+             android:background="@color/white"
+             android:gravity="center" />
+
+         <TextView
+             android:id="@+id/alarmzbmsg"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_margin="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center" />
+
+
+</LinearLayout>

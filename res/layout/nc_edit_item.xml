@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listRowContent"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:background="@drawable/listview_bg"
+    android:descendantFocusability="blocksDescendants" >
+     
+    <TextView
+        android:id="@+id/addressText"
+        android:layout_width="50dp"
+        android:layout_height="52dp"
+        android:layout_gravity="left|center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        android:gravity="center" />
+
+
+    <TextView
+        android:id="@+id/numSpinner"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:focusable="false"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/orderSpinner"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:focusable="false"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/operatText"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="3"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/noteEditText"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="3"
+        android:background="@color/white" />
+
+
+</LinearLayout>

@@ -1,0 +1,318 @@
+<resources>
+
+    <!-- Strings related to all activities 所有界面共用的-->
+    
+    <string name="enable">Enable</string>
+    <string name="stop">STOP</string>
+    <string name="f1">F1</string>
+    <string name="scramBtn1">Scram1</string>
+    <string name="scramBtn2">Scram2</string>
+    
+    <string name="menu_exit">EXIT</string>
+    <string name="menu_about">ABOUT</string>
+    
+    <string name="OK">OK</string>
+    <string name="CANCEL">Cancel</string>
+    
+    <string name="touchToAdd">touchToAdd</string>
+    
+    <string name="menu_mainActivity">mainActivity</string>
+    <string name="menu_programmingActivity">programmingActivity</string>
+    <string name="menu_settingActivity">settingActivity</string>
+    <string name="menu_parameterSettingActivity">parameterSettingActivity</string>
+    <string name="menu_maintainGuideActivity">maintainGuideActivity</string>
+
+<!-- 文件保存目录结构 -->
+  
+    <string name="mechanicalParameterFolder">机械参数</string>       
+    <string name="mouldDataFolder">模具数据</string>
+  		<string name="dataToDownloadFolder">需要下载的数据</string>  	  		
+    <string name="otherParameterFolder">其他参数</string>
+
+    <!-- Strings related to tr_activity_main 主界面-->
+    
+    <string name="tr_activity_log">TR</string>
+    <string name="tr_activity_main">TR_Main</string>
+    <string name="tr_activity_welcome">TR_Welcome</string>
+    <string name="app_name">TR</string>
+    
+    <string name="main_mode_manual">manual</string>
+    <string name="main_mode_origin">origin</string>
+    <string name="main_mode_step">step</string>
+    <string name="main_mode_automatic">automatic</string>
+    <string name="main_mode_startStop">Start/Stop</string>
+    <string name="main_mode_step_message">步进模式已开始\n　　需要连续执行步进动作时，请按画面上的【连续STEP】按钮;需要执行单步步进动作时，请按画面上的【单步STEP】按钮；\n　　按【×】或者【停止】按钮取消步进模式    </string>
+    
+    <string name="main_autoStart">autoStart</string>
+    <string name="main_autoWait">autoWait</string>
+    
+    <string name="main_currentPosition">currentPos（mm）</string>
+    <string name="main_currentPosition_foot">foot（X）</string>
+    <string name="main_currentPosition_proBA">proBA（Y）</string>
+    <string name="main_currentPosition_proUD">proUD（Z）</string>
+    <string name="main_currentPosition_feedBA">feedBA（Ys）</string>
+    <string name="main_currentPosition_feedUD">feedUD（Zs）</string>
+    
+    <string name="main_counter">counter</string>
+    <string name="main_counter_outNum">outNum"</string>
+    <string name="main_counter_rejectsNum">rejectsNum</string>
+    
+    <string name="main_periodicSurveillance">periodSurv（s）</string>
+    <string name="main_periodicSurveilliance_molding">periodMolding</string>
+    <string name="main_periodicSurveillance_out">periodOut</string>
+    <string name="main_periodicSurveillance_full">periodFull</string>
+    
+    <string name="main_quikeBtn">quikeBtn</string>
+    <string name="main_quikeBtn_read">read</string>
+    <string name="main_quikeBtn_save">save</string>
+    <string name="main_quikeBtn_wificon">WIFI</string>
+    <string name="main_quikeBtn_clampOpen">clampClose</string>
+    <string name="main_quikeBtn_badReset">badReset</string>
+    <string name="main_quikeBtn_outReset">outReset</string>
+    <string name="main_quikeBtn_packingReset">packingReset</string>
+
+    <!-- Strings related to tr_activity_programming 编程类界面-->
+    
+    <string name="tr_activity_programming">TR_Programming</string>
+    
+
+    	
+    	<string name="programming_lineOperate">lineOperate</string>
+    	
+    	<string-array name="programming_array_lineOperate">
+    	    <item>InsertUP</item>
+    	    <item>DEL</item>
+    	    <item>InsertDOWN</item>
+    	</string-array>
+  		   
+    	<string name="programming_menu_new">new</string>
+    	<string name="programming_menu_open">open</string>
+	    <string name="programming_menu_save">save</string>
+	    <string name="programming_menu_saveAs">saveAs</string>
+	    <string name="programming_menu_del">del</string>
+	    <string name="programming_menu_connect">connect</string>
+	    <string name="programming_menu_compile">compile</string>
+	    <string name="programming_menu_test">test</string>
+	    <string name="programming_menu_jump">jump</string>
+	    <string name="programming_menu_exit">exit</string>
+	    
+    	<string name="programming_deviceDefine">deviceDefine</string>
+	    
+		    <string-array name="programming_array_deviceDefineList">
+		        <item>actualInput</item>
+		        <item>actualOutput</item>
+		        <item>middleInput</item>
+		        <item>middleOutput</item>
+		        <item>dataInput</item>
+		        <item>dataOutput</item>
+		        <item>register</item>
+		        <item>dataRegister</item>
+		        <item>timer</item>
+		        <item>counter</item>
+		        <item>position</item>
+		        <item>alarm</item>
+		    </string-array>
+	        
+		        	<string name="programming_device_actualInput">actualInput</string>
+		        	<string name="programming_device_actualOutput">actualOutput</string>
+		        	<string name="programming_device_middleInput">middleInput</string>
+		        	<string name="programming_device_middleOutput">middleOutput</string>
+		        	<string name="programming_device_dataInput">dataInput</string>
+		        	<string name="programming_device_dataOutput">dataOutput</string>
+		        	<string name="programming_device_register">register</string>
+		        	<string name="programming_device_dataRegister">dataRegister</string>
+		        	<string name="programming_device_timer">timer</string>
+		        	<string name="programming_device_counter">counter</string>
+		        	<string name="programming_device_position">position</string>
+		        		<string name="programming_device_position_P">positionP</string>
+		        		<string name="programming_device_position_SP">positionSP</string>
+		        		<string name="programming_device_position_FP">positionFP</string>
+		        		<string name="programming_device_position_hint">range1~200</string>
+		        	<string name="programming_device_alarm">alarm</string>		        	
+		        	
+		        	
+	        <string name="programming_device_address">address</string>
+	        <string name="programming_device_symbolName">symbolName</string>
+	        <string name="programming_device_signalName">signalName</string>
+	        <string name="programming_device_note">note</string>
+	
+	    <string name="programming_ncEdit">ncEdit</string>
+	        <string name="programming_ncEdit_address">address</string>
+	        <string name="programming_ncEdit_num">num</string>
+	        	<string name="programming_ncEdit_num_L">Ljump</string>
+	        	<string name="programming_ncEdit_num_S">Sjump</string>
+	        	<string name="programming_ncEdit_num_hint">range0~999</string>
+	        <string name="programming_ncEdit_order">命令</string>
+	        	<string name="programming_ncEdit_order_alarm_codeToChoose">alarmCodeChoose</string>
+	        	<string name="programming_ncEdit_order_alarm_code">alarmCode</string>
+	        	<string name="programming_ncEdit_order_alarm_info">alarmInfo</string>
+	        	<string name="programming_ncEdit_order_alarm_XXX">alarmXXX:</string>
+	        	
+	        	<string name="programming_ncEdit_order_counter_counterToChoose">counterToChoose</string>
+	        	<string name="programming_ncEdit_order_counter_resultToChoose">resultToChoose</string>
+	        	
+	        	<string name="programming_ncEdit_order_orderPreviewArea">orderPreview</string>
+	        		        	<string name="programming_ncEdit_order_goto">GOTO</string>
+	        	<string name="programming_ncEdit_order_call">CALL</string>
+	        	
+	        	<string name="programming_ncEdit_order_if_TypeToChoose">TypeToChoose</string>
+	        	<string name="programming_ncEdit_order_if_nameNote">nameNote</string>
+	        	<string name="programming_ncEdit_order_if_comparisonValue">comparisonValue</string>
+	        	<string name="programming_ncEdit_order_if_logicalToChoose">logicalToChoose</string>
+	        	<string name="programming_ncEdit_order_if_dataRelation">dataRelation</string>
+	        	<string name="programming_ncEdit_order_if_addInput">addInput</string>
+	        	<string name="programming_ncEdit_order_if_cancelInput">cancelInput</string>
+	        	<string name="programming_ncEdit_order_if_hint">range0~65536</string>
+	        	
+		        	<string-array name="IF1">
+				        <item>actualInput</item>
+				        <item>actualOutput</item>
+				        <item>middleInput</item>
+				        <item>middleOutput</item>
+				        <item>dataInput</item>
+				        <item>dataOutput</item>
+				        <item>register</item>
+				        <item>dataRegister</item>
+				    </string-array>
+				    
+				    <string-array name="IF2">
+				        <item>＝</item>
+				        <item>!＝</item>
+				        <item>＞</item>
+				        <item>＜</item>
+				    </string-array>
+	        	
+	        	<string name="programming_ncEdit_order_ifthen_jumpToChoose">jumpToChoose</string>
+
+	        	<string name="programming_ncEdit_order_ifthen_jump">jump</string>
+	        	
+	        	<string name="programming_ncEdit_order_move_postion">position</string>
+	        	<string name="programming_ncEdit_order_move_P">postionP</string>
+	        	<string name="programming_ncEdit_order_move_SP">postionSP</string>
+	        	<string name="programming_ncEdit_order_move_FP">postionFP</string>
+	        	
+	        	<string name="programming_ncEdit_order_out_typeToChoose">typeToChoose</string>
+	        	<string name="programming_ncEdit_order_out_name">name</string>
+	        	<string name="programming_ncEdit_order_out_resultToChoose">resultToChoose</string>
+	        	<string name="programming_ncEdit_order_out_addOutput">addOutput</string>
+				<string name="programming_ncEdit_order_out_cancelOutput">cancelOutput</string>	
+	        	<string name="programming_ncEdit_order_out_hint">range0~65536</string>
+	        	
+	        	    <string-array name="OUT">
+				        <item>actualOutput</item>
+				        <item>middleOutput</item>
+				        <item>dataOutput</item>
+				        <item>register</item>
+				        <item>dataRegister</item>      
+				    </string-array>
+	        	
+	        	<string name="programming_ncEdit_order_sequential_choose">sequentialChoose</string>
+	        	
+	        	<string name="programming_ncEdit_order_wait_typeChoose">typeChoose</string>
+	        	<string name="programming_ncEdit_order_wait_fixedTimer">fixedTimer</string>
+	        	<string name="programming_ncEdit_order_wait_setTimer">setTimer</string>
+	        	<string name="programming_ncEdit_order_wait_pos">waitPos</string>
+	        	<string name="programming_ncEdit_order_wait_hint">range0.00s~99.99s</string>
+	        	
+	        <string name="programming_ncEdit_operate">operate</string>
+	        <string name="programming_ncEdit_note">note</string>
+	    
+	    <string name="programming_tableEdit">TableEdit</string>
+	    	<string name="programming_tableEdit_num">num</string>
+	        <string name="programming_tableEdit_inPut">inPut</string>
+	        <string name="programming_tableEdit_outPut">outPut</string>
+	        <string name="programming_tableEdit_note">note</string>
+
+
+
+
+    <!-- Strings related to tr_activity_setting 设定类界面-->
+    
+    <string name="tr_activity_setting">TR_Setting</string>
+    
+    	<string name="setting_pos_speed">posSpeed</string>
+    	<string name="setting_timer">timer</string>
+    	<string name="setting_presetCounter">presetCounter</string>
+    	<string name="setting_otherFunction">otherFunction</string>
+    	
+    	
+    	
+    	<string name="setting_feedertrough">feedertrough</string>
+    	<string name="setting_product">product</string>
+    	<string name="setting_foot">foot(X)</string>
+    	<string name="setting_productBA">productBA(Y)</string>
+    	<string name="setting_productUD">productUD(Z)</string>
+    	<string name="setting_feedertroughBA">feedertroughBA(Ys)</string>
+    	<string name="setting_feedertroughUD">feedertroughUD(Zs)</string>
+    	<string name="setting_freeTeach">freeTeach</string>
+    	<string name="setting_rememberPos">rememberPos</string>
+    	<string name="setting_currentValue">currentValue：</string>
+   		
+    	<string name="setting_free_mechanicalPos">mechanicalPos</string>
+    	<string name="setting_free_axle">axle</string>
+    	<string name="setting_free_currentPos">currentPos(mm)</string>
+    	<string name="setting_free_originLimit">originLimit</string>
+    	<string name="setting_free_operate">perate</string>
+    	
+        <string name="setting_reset">reset</string>
+        <string name="setting_symbol">symbol</string>
+        <string name="setting_name">name</string>
+        <string name="setting_counter_currentValue">currentValue</string>
+        <string name="setting_setValue">setValue</string>
+        
+        <string name="setting_timerSet">timerSet</string>
+        <string name="setting_timer_setValue">setValue(s)</string>
+        <string name="setting_timerNote">timerNote</string>
+        <string name="setting_timerGraph">timerGraph</string>
+		<string name="setting_area">area</string>
+		
+			        <string-array name="free_option">
+				        <item>freeOperate</item>
+				        <item>optionOperate</item> 
+				    </string-array>
+				    
+			        <string-array name="mouldData">
+			  		    <item>open this data</item>
+				        <item>delete this data</item>
+				        <item>save data to this</item> 
+				    </string-array> 
+
+
+    <!-- Strings related to tr_activity_parameter_setting 参数设定类界面-->
+    
+    <string name="tr_parameter_setting">TR_Parameter_Setting</string>
+    
+        <string name="parameterSetting_mechanicalPara">mechanicalPara</string>
+        <string name="parameterSetting_servoPara">servoPara</string>
+        <string name="parameterSetting_downloadManagement">downloadManagdement</string>
+        <string name="parameterSetting_otherFunction">otherFunction</string>
+        
+    <string name="download">download</string>
+    
+    <string name="parameterSetting_read">read</string>
+	<string name="parameterSetting_write">write</string>
+	
+	<string name="parameterSetting_num">num</string>
+    <string name="parameterSetting_content">content</string>
+    <string name="parameterSetting_setValue">setValue</string>
+    <string name="parameterSetting_currentValue">currentValue</string>
+    <string name="parameterSetting_operate">operate</string>    
+    <string name="parameterSetting_note">note</string>
+    <string name="parameterSetting_axle1">axle1</string>   
+	<string name="parameterSetting_axle2">axle2</string>
+	<string name="parameterSetting_axle3">axle3</string>
+	<string name="parameterSetting_axle4">axle4</string>
+	<string name="parameterSetting_axle5">axle5</string>
+	<string name="parameterSetting_axle6">axle6</string>
+	<string name="parameterSetting_axle7">axle7</string>
+	<string name="parameterSetting_axle8">axle8</string>  
+    <string name="parameterSetting_saveToMain">saveToMain</string>
+        
+
+    <!-- Strings related to tr_activity_maintainguide 指南类界面-->
+    
+    <string name="tr_activity_maintainGuide">TR_MaintainGuide</string>
+
+
+
+</resources>

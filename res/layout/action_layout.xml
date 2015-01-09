@@ -1,0 +1,227 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TabHost android:id="@+id/tabhost" 
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content">  
+        <LinearLayout 
+            android:orientation="vertical"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent">  
+            <!-- TabWidget的id属性必须为 @android:id/tabs-->              
+            <TabWidget android:id="@android:id/tabs" 
+                android:orientation="horizontal" 
+                android:layout_width="fill_parent"                
+                android:layout_height="wrap_content" />  
+            <!-- FrameLayout的id属性必须为 @android:id/tabcontent-->  
+             <FrameLayout android:id="@android:id/tabcontent" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="fill_parent">  
+                <TextView 
+					   android:id="@+id/view1" 
+					   android:layout_width="fill_parent" 
+					   android:layout_height="fill_parent"/>  
+                <TextView 
+						android:id="@+id/view2" 
+						android:layout_width="fill_parent" 
+						android:layout_height="fill_parent"/>  
+                <TextView 
+	                   android:id="@+id/view3" 
+	                   android:layout_width="fill_parent" 
+	                   android:layout_height="fill_parent"/>  
+                 <TextView 
+	                   android:id="@+id/view4" 
+	                   android:layout_width="fill_parent" 
+	                   android:layout_height="fill_parent"/>  
+             </FrameLayout>  
+         </LinearLayout>  
+    </TabHost>  
+		   	<LinearLayout
+		         android:layout_width="match_parent"
+		         android:layout_height="0dip"		         
+		         android:layout_weight="5"
+		         android:orientation="horizontal">
+		    <!-- 装载列表的Fragment 的容器 -->
+		    <LinearLayout 		      
+		        android:layout_width="match_parent"
+		  		android:layout_height="match_parent"
+		  		android:orientation="vertical"		  		
+		  		android:layout_weight="2">
+             <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="4"
+		        android:orientation="vertical" >
+				    <ListView
+				        android:id="@+id/program_list"
+				        android:layout_width="match_parent"
+				        android:layout_height="fill_parent"
+				        android:listSelector="@drawable/selector"
+				        android:cacheColorHint="@android:color/transparent"
+				        android:fadingEdge="none" >
+	   				</ListView>	   
+  			 </LinearLayout>
+		   <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="0.75"
+		        android:orientation="horizontal" >
+			    <Button
+			        android:id ="@+id/deleteBtn"
+			        android:layout_width ="0dip" 
+			        android:layout_height = "fill_parent"
+			        android:layout_weight="1"
+			        android:enabled="false"
+			        android:text = "删除">
+			        
+			    </Button>
+			   <Button
+			        android:id ="@+id/insertBtn"
+			        android:layout_width ="0dip" 
+			        android:layout_height = "fill_parent"
+			        android:layout_weight="1"
+			        android:enabled="false"
+			        android:text = "插入" >
+			        
+			    </Button>
+			       <Button
+			        android:id ="@+id/downLoadBtn"
+			        android:layout_width ="0dip" 
+			        android:layout_weight="1"
+			        android:layout_height = "fill_parent"
+			        android:enabled="true"
+			        android:text = "下载" >
+			        
+			    </Button>
+			     <Button
+			        android:id ="@+id/backupBtn"
+			        android:layout_width ="0dip" 
+			        android:layout_weight="1"
+			        android:layout_height = "fill_parent"
+			        android:enabled="true"
+			        android:text = "备份" >
+			        
+			    </Button>
+	   		</LinearLayout>   
+                
+		    </LinearLayout>
+		    <!-- 装载详情的Fragment 的容器 -->
+        <LinearLayout 
+	        android:layout_width="match_parent"
+	  		android:layout_height="match_parent"	
+	  		android:orientation="horizontal"	  		
+	  		android:layout_weight="1">
+			    <LinearLayout 
+			        android:layout_width="match_parent"
+			  		android:layout_height="match_parent"	
+			  		android:orientation="vertical"	  		
+			  		android:layout_weight="1">
+			        
+			        <Button
+			            android:id="@+id/move"
+			            android:layout_width="200dp"
+			            android:layout_height="wrap_content"
+			            android:text="轴移动" />
+
+			         <Button
+			             android:id="@+id/button2"
+			             android:layout_width="199dp"
+			             android:layout_height="wrap_content"
+			             android:text="治具" />
+
+			          <Button
+			              android:id="@+id/button2"
+			              android:layout_width="200dp"
+			              android:layout_height="wrap_content"
+			              android:text="辅助设备" />
+
+			           <Button
+			               android:id="@+id/button2"
+			               android:layout_width="199dp"
+			               android:layout_height="wrap_content"
+			               android:text="检测" />
+
+			    </LinearLayout>
+
+			      <LinearLayout
+			          android:layout_width="match_parent"
+			          android:layout_height="match_parent"
+			          android:layout_weight="1"
+			          android:orientation="vertical" >
+
+			          <Button
+			              android:id="@+id/button2"
+			              android:layout_width="162dp"
+			              android:layout_height="wrap_content"
+			              android:text="气动" />
+
+			          <Button
+			              android:id="@+id/button2"
+			              android:layout_width="158dp"
+			              android:layout_height="wrap_content"
+			              android:text="注塑机信号" />
+
+			          <Button
+			              android:id="@+id/button2"
+			              android:layout_width="156dp"
+			              android:layout_height="wrap_content"
+			              android:text="等待" />
+
+			          <TextView
+			              android:id="@+id/textView2"
+			              android:layout_width="149dp"
+			              android:layout_height="wrap_content"
+			              android:layout_weight="0.19"
+			              android:text="TextView" />
+			      </LinearLayout>
+
+		    </LinearLayout>
+		</LinearLayout>    
+  	<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:orientation="vertical" 
+            android:layout_weight="0.75">
+        
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:orientation="horizontal"
+            android:layout_weight="0.75">
+     <TextView
+ 	    android:id="@+id/textView1"
+ 	    android:layout_width="0dip"
+ 	    android:layout_height="match_parent"
+ 	    android:layout_weight="2"
+ 	    android:text="TextView" />   
+     <Button
+  	    android:id="@+id/button1"
+  	    android:layout_width="0dip"
+  	    android:layout_height="match_parent"
+  	    android:layout_weight="1"
+  	    android:text="Button" />
+
+  	<Button
+  	    android:id="@+id/button3"
+  	    android:layout_width="0dip"
+  	    android:layout_height="match_parent"
+  	    android:layout_weight="1"
+  	    android:text="Button" />
+
+  	<Button
+  	    android:id="@+id/button4"
+  	    android:layout_width="0dip"
+  	    android:layout_height="match_parent"
+  	    android:layout_weight="1"
+  	    android:text="Button" />
+  	<Button
+  	    android:id="@+id/button5"
+  	    android:layout_width="0dip"
+  	    android:layout_height="match_parent"
+  	    android:layout_weight="1"
+  	    android:text="Button" />
+    </LinearLayout>
+</LinearLayout>

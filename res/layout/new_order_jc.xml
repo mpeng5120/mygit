@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+    <ScrollView
+       android:id="@+id/scrollView1"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scrollbarAlwaysDrawVerticalTrack="true"  >
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal" 
+        android:layout_gravity="center" 
+        android:gravity="center" >
+                    <CheckBox
+                        android:id="@+id/checkBox1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="制品确认" />
+                    
+                     <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp" >
+
+            <RadioButton
+                android:id="@+id/radio_on1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始检测" />
+
+            <RadioButton
+                android:id="@+id/radio_off1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="停止检测" />
+
+        </RadioGroup>
+ </LinearLayout>
+                     
+                     
+      <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal" 
+        android:layout_gravity="center" 
+        android:gravity="center"   >
+                    <CheckBox
+                        android:id="@+id/checkBox2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="夹具内制品确认"/>
+                    
+                     <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp" >
+
+            <RadioButton
+                android:id="@+id/radio_on2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始检测" />
+
+            <RadioButton
+                android:id="@+id/radio_off2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="停止检测" />
+
+        </RadioGroup>
+ </LinearLayout>
+ 
+       <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal" 
+        android:layout_gravity="center"  
+        android:gravity="center"  >
+                    <CheckBox
+                        android:id="@+id/checkBox3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="料口确认"/>
+                    
+                     <RadioGroup
+            android:id="@+id/radioGroup3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp" >
+
+            <RadioButton
+                android:id="@+id/radio_on3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始检测" />
+
+            <RadioButton
+                android:id="@+id/radio_off3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="停止检测" />
+
+        </RadioGroup>
+ </LinearLayout>
+ 
+                         <LinearLayout
+                             android:id="@+id/LinearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal" 
+        android:layout_gravity="center"  
+        android:gravity="center"  >
+                    <CheckBox
+                        android:id="@+id/checkBox4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="吸着确认1" />
+                    
+                     <RadioGroup
+            android:id="@+id/radioGroup4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp" >
+
+            <RadioButton
+                android:id="@+id/radio_on4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始检测" />
+
+            <RadioButton
+                android:id="@+id/radio_off4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="停止检测" />
+
+        </RadioGroup>
+ </LinearLayout>
+ 
+      <LinearLayout
+          android:id="@+id/LinearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal" 
+        android:layout_gravity="center" 
+        android:gravity="center"   >
+         <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="吸着确认2"/>                  
+        <RadioGroup
+            android:id="@+id/radioGroup5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp" >
+            <RadioButton
+                android:id="@+id/radio_on5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始检测" />
+            <RadioButton
+                android:id="@+id/radio_off5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="停止检测" />
+        </RadioGroup>
+     </LinearLayout>
+     
+      <LinearLayout
+          android:id="@+id/LinearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"  
+        android:layout_gravity="center" 
+        android:gravity="center"  >
+         <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="吸着确认2"/>                  
+        <RadioGroup
+            android:id="@+id/radioGroup6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp" >
+            <RadioButton
+                android:id="@+id/radio_on6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始检测" />
+            <RadioButton
+                android:id="@+id/radio_off6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="停止检测" />
+        </RadioGroup>
+     </LinearLayout>
+     
+      <LinearLayout
+          android:id="@+id/LinearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal" 
+        android:layout_gravity="center" 
+        android:gravity="center"   >
+         <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="吸着确认2"/>                  
+        <RadioGroup
+            android:id="@+id/radioGroup7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp" >
+            <RadioButton
+                android:id="@+id/radio_on7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始检测" />
+            <RadioButton
+                android:id="@+id/radio_off7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="停止检测" />
+        </RadioGroup>
+     </LinearLayout>
+     
+      <LinearLayout
+          android:id="@+id/LinearLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"  
+        android:layout_gravity="center" 
+        android:gravity="center"  >
+         <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="吸着确认2"/>                  
+        <RadioGroup
+            android:id="@+id/radioGroup8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp" >
+            <RadioButton
+                android:id="@+id/radio_on8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始检测" />
+            <RadioButton
+                android:id="@+id/radio_off8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="停止检测" />
+        </RadioGroup>
+     </LinearLayout>
+     
+      <LinearLayout
+          android:id="@+id/LinearLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"  
+        android:layout_gravity="center" 
+        android:gravity="center"  >
+         <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="吸着确认2"/>                  
+        <RadioGroup
+            android:id="@+id/radioGroup9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp" >
+            <RadioButton
+                android:id="@+id/radio_on9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始检测" />
+            <RadioButton
+                android:id="@+id/radio_off9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="停止检测" />
+        </RadioGroup>
+     </LinearLayout>
+     
+      <LinearLayout
+          android:id="@+id/LinearLayout10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal" 
+        android:layout_gravity="center" 
+        android:gravity="center"  >
+         <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="吸着确认2"/>                  
+        <RadioGroup
+            android:id="@+id/radioGroup10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp" >
+            <RadioButton
+                android:id="@+id/radio_on10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始检测" />
+            <RadioButton
+                android:id="@+id/radio_off10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="停止检测" />
+        </RadioGroup>
+     </LinearLayout>
+ </LinearLayout>
+  </ScrollView>                          
+
+</LinearLayout>

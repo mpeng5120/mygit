@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:id="@+id/TableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" >
+                
+                <Button
+                    android:id="@+id/getdata"
+                    android:layout_width="20dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/getdata"/>
+
+                <Button
+                    android:id="@+id/shortkey"
+                    android:layout_width="20dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="待设定"/>
+
+                <Button
+                    android:id="@+id/timeset"
+                    android:layout_width="20dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:text="@string/timeset"/>
+
+            </TableRow>
+
+           <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" >
+                
+                <Button
+                    android:id="@+id/dajs"
+                    android:layout_width="20dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/da_maintainGuide"/>
+
+                <Button
+                    android:id="@+id/drzk"
+                    android:layout_width="20dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/zk_maintainGuide"/>
+
+                <Button
+                    android:id="@+id/bfqc"
+                    android:layout_width="20dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:text="@string/clearbf"/>
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+   <TextView
+            android:id="@+id/showdata"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_marginLeft="10dp"/>
+</LinearLayout>

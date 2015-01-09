@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="800dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:id="@+id/FrameLayout1"
+        android:layout_width="240dp"
+        android:layout_height="450dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@color/gray" >
+
+            <LinearLayout
+                android:id="@+id/TableLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@color/white" 
+                android:orientation="vertical">
+                    <CheckBox
+                        android:id="@+id/checkBox1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/programming_nc_food" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/programming_productBA" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/programming_feedertroughBA" />
+                    
+                    <CheckBox
+                        android:id="@+id/checkBox3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/programming_productUD" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/programming_feedertroughUD" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="@string/setting_move_axle"
+            android:textColor="@color/blueviolet" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/PSpinnerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/programming_nc_ydz" />
+
+    <FrameLayout
+        android:layout_width="500dp"
+        android:layout_height="450dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@color/gray" >
+
+            <LinearLayout
+                android:id="@+id/RelativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white" >
+
+
+    <Spinner
+        android:id="@+id/SelectSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="0.5" >
+    <Spinner        
+        android:id="@+id/CerrectInfo"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:padding="10dip"
+        android:layout_weight="1"
+        android:background="@color/red"
+        android:text="TextView" />
+    <Button 
+        android:id="@+id/PositionAdd"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="增加位置" />
+      <Button 
+        android:id="@+id/PositionDel"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:text="删除位置" /> 
+    
+ </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.19" >
+
+         <TextView
+		    android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="2"
+		    android:text="速度:"/>
+         <EditText
+		    android:id="@+id/speed"
+		    android:layout_width="0dip"
+		    android:layout_weight="3"
+		    android:layout_height="wrap_content" 
+		    android:digits="1234567890.-"			
+			android:inputType="number"
+			android:singleLine="true"
+		    android:ems="3"> 
+		    </EditText>
+             
+         <TextView
+		    android:layout_width="0dip"
+		    android:layout_weight="3"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:text="加速度:"/>
+         <EditText
+		    android:id="@+id/aspeed"
+		    android:layout_width="0dip"
+		    android:layout_weight="3"
+		    android:layout_height="wrap_content" 
+		    android:digits="12345"		   		
+			android:inputType="number"
+			android:singleLine="true"
+		    android:ems="1"> 
+		    </EditText>
+		    
+             <TextView
+		    android:layout_width="0dip"
+		    android:layout_weight="3"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:text="减速度:"/>
+         <EditText
+		    android:id="@+id/dspeed"
+		    android:layout_width="0dip"
+		    android:layout_weight="3"
+		    android:layout_height="wrap_content" 
+		    android:digits="12345"				
+			android:inputType="number"
+			android:singleLine="true"
+		    android:ems="1"> 
+        </EditText>
+        <TextView
+			    android:id="@+id/FpNumTxt"
+			    android:layout_width="0dip"
+		        android:layout_weight="4"
+			    android:layout_height="wrap_content"	
+			    android:visibility="gone"
+			    android:text="自由装箱数" />
+       <EditText
+			    android:id="@+id/FpNumEdt"
+			    android:layout_width="0dip"
+		        android:layout_weight="3"
+			    android:layout_height="wrap_content" 
+			    android:visibility="gone" 
+			    android:digits="1234567890."			   		
+			    android:inputType="number"
+ 				android:singleLine="true"
+			    android:ems="2"> 
+       </EditText>
+
+     </LinearLayout>
+    <LinearLayout
+      android:id="@+id/PositionLayout"
+      android:layout_width="match_parent"
+      android:layout_height="0dip"
+      android:layout_weight="3"
+      android:orientation="horizontal" >
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+         <LinearLayout
+       		android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.19" >
+	
+	        <CheckBox
+		       android:id="@+id/xCheckBox"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"	
+		       android:button="@drawable/checkbox_bg"	   
+		       android:text="x" />
+	         <TextView
+			    android:id="@+id/xValue"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="15dp"	
+			    android:layout_marginRight="15dp"
+			    android:text="12" />
+	        
+			<EditText
+			    android:id="@+id/xEditText"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"  
+			    android:ems="10">
+			<requestFocus /> 
+			</EditText>
+	        
+         </LinearLayout>
+         <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.19" >
+			<CheckBox
+		       android:id="@+id/yCheckBox"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		         android:button="@drawable/checkbox_bg"	 
+		       android:text="Y" />
+	         <TextView
+			    android:id="@+id/yValue"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="15dp"	
+			    android:layout_marginRight="15dp"
+			    android:text="34" />
+	        
+			<EditText
+			    android:id="@+id/yEditText"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:ems="10">
+			<requestFocus /> 
+			</EditText>
+        
+        </LinearLayout>
+        
+         <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.19" >
+			<CheckBox
+		       android:id="@+id/hCheckBox"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		         android:button="@drawable/checkbox_bg"	 
+		       android:text="H" />
+	         <TextView
+			    android:id="@+id/hvalue"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="15dp"	
+			    android:layout_marginRight="15dp"
+			    android:text="56" />
+	        
+			<EditText
+			    android:id="@+id/hEditText"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:ems="10">
+			<requestFocus /> 
+			</EditText>
+        
+         </LinearLayout>
+         
+        <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.19" >
+			<CheckBox
+		       android:id="@+id/zCheckBox"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:button="@drawable/checkbox_bg"	 
+		       android:text="Z" />
+	         <TextView
+			    android:id="@+id/Zvalue"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="15dp"	
+			    android:layout_marginRight="15dp"
+			    android:text="56" />
+	        
+			<EditText
+			    android:id="@+id/zEditText"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:ems="10">
+			<requestFocus /> 
+			</EditText>
+        
+         </LinearLayout>
+  	 
+         <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.19" >
+				<CheckBox
+			       android:id="@+id/lCheckBox3"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:button="@drawable/checkbox_bg"	 
+			       android:text="L" />
+		         <TextView
+				    android:id="@+id/lValue"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+			    android:layout_marginLeft="15dp"	
+			    android:layout_marginRight="15dp"
+				    android:text="90" />
+		        
+				<EditText
+				    android:id="@+id/lEditText"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:ems="10">
+				<requestFocus /> 
+				</EditText>
+		        <Button
+	             android:id="@+id/positionMemryBtn"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:text="位置记忆" />
+
+         </LinearLayout>
+
+    </LinearLayout>
+   
+     
+     	</LinearLayout>
+     	  <LinearLayout
+     	    android:id="@+id/FSPLayout"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dip"
+		    android:layout_weight="3"
+            android:visibility="gone"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black" >
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <ToggleButton
+                        android:id="@+id/sfp_switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="ToggleButton"
+                        android:textOff="@string/setting_product"
+                        android:textOn="@string/setting_feedertrough" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/gray"
+                    android:gravity="center"
+                    android:text="@string/setting_foot" />
+
+                <TextView
+                    android:id="@+id/productBA_sfp_setting"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/gray"
+                    android:gravity="center"
+                    android:text="@string/setting_productBA" />
+
+                <TextView
+                    android:id="@+id/productUD_sfp_setting"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/gray"
+                    android:gravity="center"
+                    android:text="@string/setting_productUD" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/fpsp_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ListView>
+        </LinearLayout>
+ 	    </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="@string/programming_ncEdit_order_move_postion"
+            android:textColor="@color/blueviolet" />
+    </FrameLayout>
+
+</LinearLayout>

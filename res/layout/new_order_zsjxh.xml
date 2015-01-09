@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"  >
+                    <CheckBox
+                        android:id="@+id/checkBox1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="开模许可" />
+                    
+                     <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp" >
+
+            <RadioButton
+                android:id="@+id/radio_on1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ON" />
+
+            <RadioButton
+                android:id="@+id/radio_off1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="OFF" />
+
+        </RadioGroup>
+ </LinearLayout>
+                     
+                     
+                     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"  >
+                    <CheckBox
+                        android:id="@+id/checkBox2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="关模许可"/>
+                    
+                     <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp" >
+
+            <RadioButton
+                android:id="@+id/radio_on2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ON" />
+
+            <RadioButton
+                android:id="@+id/radio_off2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="OFF" />
+
+        </RadioGroup>
+ </LinearLayout>
+ 
+                       <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"  >
+                    <CheckBox
+                        android:id="@+id/checkBox3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="循环开始"/>
+                    
+                     <RadioGroup
+            android:id="@+id/radioGroup3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp" >
+
+            <RadioButton
+                android:id="@+id/radio_on3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ON" />
+
+            <RadioButton
+                android:id="@+id/radio_off3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="OFF" />
+
+        </RadioGroup>
+ </LinearLayout>
+ 
+                         <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"  >
+                    <CheckBox
+                        android:id="@+id/checkBox4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="顶针许可" />
+                    
+                     <RadioGroup
+            android:id="@+id/radioGroup4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="40dp" >
+
+            <RadioButton
+                android:id="@+id/radio_on4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ON" />
+
+            <RadioButton
+                android:id="@+id/radio_off4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="OFF" />
+
+        </RadioGroup>
+ </LinearLayout>
+ 
+
+</LinearLayout>

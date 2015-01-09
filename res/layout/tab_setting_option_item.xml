@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table_listitem"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:background="@color/black" >
+     <TextView
+         android:id="@+id/fgf"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="1.1"
+        android:background="@color/gray"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/button_option1"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_gravity="left|center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:background="@color/lightgray"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/isymbol1"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_gravity="left|center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="1.1"
+        android:background="@color/gray"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/osymbol1"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="1.1"
+        android:background="@color/gray"
+        android:focusable="false"
+        android:gravity="center" />
+    
+   
+
+</LinearLayout>

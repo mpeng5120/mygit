@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="800dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@color/gray" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white" >
+
+                <RadioGroup
+                    android:id="@+id/radioGroup_PAR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp" >
+
+                    <RadioButton
+                        android:id="@+id/radioQON"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="ON Program NO." />
+
+                    <RadioButton
+                        android:id="@+id/radioQOFF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="OFF Program NO." />
+                </RadioGroup>
+
+                 <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/radioGroup_PAR"
+                android:orientation="vertical" >
+                <LinearLayout
+                android:id="@+id/LinearLayout11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" 
+                android:gravity="center" >
+                   <Spinner
+                        android:id="@+id/spinner_QON"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                android:id="@+id/LinearLayout12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" 
+                android:gravity="center" >
+                   <Spinner
+                        android:id="@+id/spinner_QOFF"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="@string/programming_bxzlxz"
+            android:textColor="@color/blueviolet" />
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3"
+            android:orientation="vertical" >
+
+            <TextView
+              android:id="@+id/textView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="@string/fromsd" />
+            <CheckBox
+                android:id="@+id/ckBox_CPU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/ckBox_CPU" />
+
+            <CheckBox
+                android:id="@+id/ckBox_PPU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/ckBox_PPU" />
+
+            <CheckBox
+                android:id="@+id/ckBox_SPU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/ckBox_SPU" />
+
+            <CheckBox
+                android:id="@+id/ckBox_IO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/ckBox_IO" />
+
+            <CheckBox
+                android:id="@+id/ckBox_mould"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/ckBox_mould" />
+            
+            <CheckBox
+                android:id="@+id/ckBox_mechanical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/ckBox_mechanical" />
+            
+            <CheckBox
+                android:id="@+id/ckBox_sys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/ckBox_sys" />
+           
+            <Button
+                    android:id="@+id/btn_downloadToMain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="@string/downloadToMain" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical" >
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+            <Button
+                android:id="@+id/btn_selectAll_downloadManagement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selectAll_downloadManagement" />
+           </LinearLayout>
+           
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"  >
+            <Button
+                android:id="@+id/btn_cancelAll_downloadManagement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancelAll_downloadManagement" />
+           </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="match_parent" 
+            android:background="@color/gray" >
+            
+         </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical" >
+       
+            <TextView
+              android:id="@+id/textView2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="2"
+              android:text="@string/tosd" />
+             <CheckBox
+                android:id="@+id/ckBox_mechanical1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/ckBox_mechanical" />
+            
+            <CheckBox
+                android:id="@+id/ckBox_sys1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:checked="true"
+                android:text="@string/ckBox_sys" />
+             
+             <Button
+                    android:id="@+id/btn_readFromMain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="@string/readFromMain" />
+
+            </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 	<LinearLayout
+     	android:id="@+id/fsp_status"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="0.5" >
+        <TextView
+	        android:id="@+id/infoText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:text="TextView" />
+        <!--  <Spinner
+            android:id="@+id/armSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"/>-->
+         <TextView
+		    android:id="@+id/FpNumTxt"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:gravity="center_horizontal|bottom"	
+		    android:visibility="gone"
+		    android:text="自由装箱数:"
+		    android:layout_weight="2" />
+         <EditText
+		    android:id="@+id/FpNumEdt"
+		    android:layout_weight="3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent" 
+		    android:layout_marginRight="20dip"
+		    android:visibility="gone" 
+		    android:digits="1234567890."
+			android:singleLine="true"
+			android:inputType="number"
+		    android:ems="2"> 
+		</EditText>
+
+
+     </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.1" >
+
+        <TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="速度:"/>
+         <EditText
+		    android:id="@+id/speed"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content" 
+		    android:digits="1234567890"
+			android:singleLine="true"
+			android:inputType="number"
+		    android:ems="3"> 
+		    </EditText>
+             
+         <TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:text="加速度:"/>
+         <EditText
+		    android:id="@+id/aspeed"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content" 
+		    android:digits="12345"
+			android:singleLine="true"
+			android:inputType="number"
+		    android:ems="1"> 
+		    </EditText>
+		    
+             <TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:text="减速度:"/>
+         <EditText
+		    android:id="@+id/dspeed"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content" 
+		    android:digits="12345"
+			android:singleLine="true"
+			android:inputType="number"
+		    android:ems="1"> 
+        </EditText>
+     </LinearLayout>
+    <LinearLayout
+      android:id="@+id/getoutPositionLayout"
+      android:layout_width="match_parent"
+      android:layout_height="0dip"
+      android:layout_weight="4"
+      android:orientation="horizontal" >
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+         <LinearLayout
+            android:id="@+id/xLinearLayout"
+       		android:layout_width="match_parent"
+	        android:layout_height="0dip"
+	        android:paddingTop="2dip"
+		    android:paddingBottom="2dip"
+	        android:layout_weight="0.7" >
+	
+	        <CheckBox
+		       android:id="@+id/xCcheckBox"
+		       android:layout_width="wrap_content"
+		       android:layout_height="match_parent"
+		       android:button="@drawable/checkbox_bg"
+		       android:text="X" />
+	         <TextView
+			    android:id="@+id/xValue"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:gravity="center"
+			    android:ems="8"
+			    android:paddingLeft="5dip"
+			    android:text="12" />
+	        
+			<EditText
+			    android:id="@+id/xEditText"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:background="@drawable/edittext"  
+			    android:digits="1234567890.-"	
+			    android:padding="2px" 
+			    android:singleLine="true"  
+			    android:inputType="number"   
+			    android:ems="12">			
+			</EditText>
+	        
+         </LinearLayout>
+         <LinearLayout
+             	android:id="@+id/yLinearLayout"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dip"
+		        android:paddingTop="2dip"
+		        android:paddingBottom="2dip"
+		        android:layout_weight="0.7" >
+			<CheckBox
+		       android:id="@+id/yCheckBox"
+		       android:layout_width="wrap_content"
+		       android:layout_height="match_parent"
+			   android:button="@drawable/checkbox_bg"
+		       android:text="Y" />
+	         <TextView
+			    android:id="@+id/yValue"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:gravity="center"
+			    android:ems="8"
+			    android:paddingLeft="5dip"
+			    android:text="34" />
+	        
+			<EditText
+			android:id="@+id/yEditText"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:background="@drawable/edittext"  
+			android:digits="1234567890.-"	
+			android:singleLine="true"
+			android:inputType="number"
+			android:padding="2px"      
+			android:ems="12">
+			
+			</EditText>
+        
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/hLinearLayout"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dip"
+		        android:paddingTop="2dip"
+		        android:paddingBottom="2dip"
+		        android:layout_weight="0.7" >
+			<CheckBox
+		       android:id="@+id/hCheckBox3"
+		       android:layout_width="wrap_content"
+		       android:layout_height="match_parent"
+		       android:button="@drawable/checkbox_bg"
+		       android:text="H" />
+	         <TextView
+			    android:id="@+id/hValue"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:gravity="center"
+			    android:ems="8"
+			    android:paddingLeft="5dip"
+			    android:text="78" />
+	        
+			<EditText
+			    android:id="@+id/hEditText"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:background="@drawable/edittext"  
+			     android:digits="1234567890.-"	
+			    android:padding="2px"  
+			    android:singleLine="true"   
+			    android:inputType="number" 
+			    android:ems="12">
+			
+			</EditText>
+        
+         </LinearLayout>
+        <LinearLayout
+                android:id="@+id/zLinearLayout"
+		        android:layout_width="match_parent"
+		        android:layout_height="0dip"
+		        android:paddingTop="2dip"
+		        android:paddingBottom="2dip"
+		        android:layout_weight="0.7" >
+			<CheckBox
+		       android:id="@+id/zCheckBox"
+		       android:layout_width="wrap_content"
+		       android:layout_height="match_parent"   
+		       android:button="@drawable/checkbox_bg"            
+		       android:text="Z" />
+	         <TextView
+			    android:id="@+id/Zvalue"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:gravity="center"
+			    android:ems="8"
+			    android:paddingLeft="5dip"		    
+			    android:text="56" />
+	        
+			<EditText
+			    android:id="@+id/zEditText"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:background="@drawable/edittext"  
+			     android:digits="1234567890.-"	
+			    android:padding="2px"  
+			    android:singleLine="true"  
+			    android:inputType="number"  
+			    android:ems="12">			
+			</EditText>
+        
+         </LinearLayout>
+         
+         <LinearLayout
+            android:id="@+id/lLinearLayout"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dip"
+	        android:layout_weight="0.7" >
+				<CheckBox
+			       android:id="@+id/lCheckBox3"
+			       android:layout_width="wrap_content"
+			       android:layout_height="match_parent"
+			       android:button="@drawable/checkbox_bg"
+			       android:text="L" />
+		         <TextView
+				    android:id="@+id/lValue"
+				    android:layout_width="wrap_content"
+				    android:layout_height="match_parent"
+				    android:gravity="center"
+				    android:ems="8"
+				    android:paddingLeft="5dip"
+				    android:text="90" />
+		        
+				<EditText
+				    android:id="@+id/lEditText"
+				    android:layout_width="wrap_content"
+				    android:layout_height="match_parent"
+				    android:background="@drawable/edittext"  
+			        android:digits="1234567890.-"	
+			        android:singleLine="true"
+			        android:inputType="number"
+			    android:padding="2px"      
+			    android:ems="12">				
+				</EditText>
+		        
+
+         </LinearLayout>
+         
+     <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dip"
+           android:orientation="horizontal"
+           android:layout_weight="1">
+		<RadioGroup 
+        android:id="@+id/radioGroup1"
+		android:layout_width="0dip"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="3dp"
+		android:layout_weight="2"
+		android:orientation="horizontal">
+		    <RadioButton
+		      android:id="@+id/ProductArm"
+			  android:layout_width="100dip"
+			  android:layout_height="70dip"
+			  android:layout_gravity="center"
+			  android:button="@null"	
+			  android:background="@drawable/radiobtnselector"	
+			  android:text="教行料道臂" />
+		    <RadioButton
+		      android:id="@+id/FeedArm"
+			  android:layout_width="100dip"
+			  android:layout_height="70dip"
+			  android:layout_gravity="center"
+ 			  android:background="@drawable/radiobtnselector"
+			  android:button="@null"
+			  android:text="教行制品臂" />			
+		</RadioGroup>  
+		
+		<Button
+             android:id="@+id/positionMemryBtn"
+             android:layout_width="0dip"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:layout_marginRight="20dip"
+             android:layout_gravity="right|bottom"             
+             android:text="位置记忆" />
+       </LinearLayout>
+     </LinearLayout>
+
+   
+
+       
+    </LinearLayout>
+   
+    <LinearLayout
+     	    android:id="@+id/FSPLayout"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dip"
+		    android:layout_weight="3"
+            android:visibility="gone"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black" >
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+
+                    <ToggleButton
+                        android:id="@+id/spfp_switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="ToggleButton"
+                        android:textOff="@string/setting_product"
+                        android:textOn="@string/setting_feedertrough" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/gray"
+                    android:gravity="center"
+                    android:text="@string/setting_foot" />
+
+                <TextView
+                    android:id="@+id/productBA_etting"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/gray"
+                    android:gravity="center"
+                    android:text="@string/setting_productBA" />
+
+                <TextView
+                    android:id="@+id/productUD_setting"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/gray"
+                    android:gravity="center"
+                    android:text="@string/setting_productUD" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listView_sfp_setting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ListView>
+        </LinearLayout>
+     
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dip" >
+             <Button
+             android:id="@+id/positionBtn"
+             android:layout_width="wrap_content"
+             android:layout_height="80dip"
+             android:layout_alignParentLeft="true"
+             android:gravity="center"
+             android:layout_marginLeft="10dp"
+             android:layout_weight="1"
+             android:text="切换到位置一览" />
+
+         <RadioGroup
+             android:id="@+id/radioGroup2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentTop="true"
+             android:layout_marginRight="26dp"
+             android:orientation="horizontal" >
+
+             <RadioButton
+                 android:id="@+id/speedBtnOne"
+                 android:layout_width="80dip"
+                 android:layout_height="80dip"
+                 android:layout_gravity="center"                 
+                 android:background="@drawable/radiobtnselector"
+                 android:button="@null"
+                 android:text="低速" />
+
+             <RadioButton
+                 android:id="@+id/speedBtnTwo"
+                 android:layout_width="80dip"
+                 android:layout_height="80dip"
+                 android:layout_gravity="center"
+                android:background="@drawable/radiobtnselector"
+                 android:button="@null"
+                 android:text="中速" />
+
+             <RadioButton
+                  android:id="@+id/speedBtnThree"
+                 android:layout_width="80dip"
+                 android:layout_height="80dip"
+                 android:layout_gravity="center"
+                 android:background="@drawable/radiobtnselector"
+                 android:button="@null"
+                 android:text="高速" />
+
+             <RadioButton
+                  android:id="@+id/speedBtnFour"
+                 android:layout_width="80dip"
+                 android:layout_height="80dip"
+                 android:layout_gravity="center"
+                 android:background="@drawable/radiobtnselector"
+                 android:button="@null"
+                 android:text="0.1" />
+
+             <RadioButton
+                 android:id="@+id/speedBtnFive"
+                 android:layout_width="80dip"
+                 android:layout_height="80dip"
+                 android:layout_gravity="center"
+                 android:layout_marginRight="10dip"
+                 android:background="@drawable/radiobtnselector"
+                 android:button="@null"
+                 android:text="1.0" />
+         </RadioGroup>
+
+     </RelativeLayout>
+
+</LinearLayout>

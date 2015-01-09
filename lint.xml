@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src\com\tr\main\TR_Main_Activity.java" />
+    </issue>
+    <issue id="ResourceAsColor">
+        <ignore path="src\com\tr\main\TR_Main_Activity.java" />
+    </issue>
+</lint>

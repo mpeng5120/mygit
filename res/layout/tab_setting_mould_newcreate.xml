@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/mouldnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:text="@string/setting_mouldnum1" />
+       <EditText
+            android:id="@+id/editText_mouldnum"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:digits="1234567890"
+            android:inputType="phone"
+            android:maxLength="5"
+            android:hint="@string/setting_editmouldnum" >
+        </EditText>
+         </LinearLayout>
+		 <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >	
+        <TextView
+            android:id="@+id/mouldname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:text="@string/setting_mouldname1" />
+
+        <EditText
+            android:id="@+id/editText_mouldname"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+
+            android:hint="@string/setting_editmouldname" >
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+            <RadioGroup
+            android:id="@+id/radioGroup_bzfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="150dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_bz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/setting_bz" />
+
+            <RadioButton
+                android:id="@+id/radio_fb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="@string/setting_fb" />
+
+        </RadioGroup>
+</LinearLayout>
+</LinearLayout>

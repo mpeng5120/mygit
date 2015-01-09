@@ -1,0 +1,580 @@
+<resources>
+
+    <!-- Toast所用-->
+    <string name="T_titlenotice">提示</string>
+    <string name="T_titlesure">确定</string>
+    <string name="T_titlecancel">取消</string>
+    <string name="T_titlewarn">警告</string>
+    <string name="T_titleexecute">执行</string>
+    <string name="T_titleonestepexecute">单步执行</string>
+    
+    <string name="T_executeydcz">是否执行原点操作？</string>
+    <string name="T_executebjcz">是否执行步进操作？</string>
+    <string name="T_executezdcz">是否执行自动操作？</string>
+    
+    <string name="T_nodetailedalarmmsg">无详细警报信息</string>
+    
+    <string name="T_wificonn">请先连接主机</string>
+    <string name="T_wificonnOK">当前已连接</string>
+    <string name="T_wificonnsuccess">wifi连接成功</string>
+    <string name="T_wificonnfail">连接失败，请确认连接正确的网络</string>
+    <string name="T_wificonnfailmain">wifi链接失败Main不允许链接或者没有按允许按钮</string>
+    <string name="T_wificonnmain">请按main链接允许按钮</string>
+    <string name="T_wificonnNO">wifi链接已中断</string>
+    
+     <string name="T_readdatafinish">数据读取完毕</string>
+    
+    <string name="T_languageCN">当前中文无需切换</string>
+    <string name="T_changeCN">已切换为中文</string>
+    <string name="T_languageUS">当前英文无需切换</string>
+    <string name="T_changeUS">已切换为英文</string>
+    <string name="T_languageHK">当前繁体中文无需切换</string>
+    <string name="T_changeHK">已切换为繁体中文</string>
+    
+    <string name="T_passwordset">密码设定</string>
+    <string name="T_passwordcreate">密码创建成功</string>
+    <string name="T_passworddelete">密码删除成功</string>
+    <string name="T_passwordchange">密码修改成功</string>
+    <string name="T_passwordcreateoperate">操作密码创建</string>
+    <string name="T_passwordcreateset">设定密码创建</string>
+    <string name="T_passwordcreateprogramme">编程密码创建</string>
+    <string name="T_passwordputin">请输入密码，20位以内</string>
+    <string name="T_passwordputinold">请输入原密码，20位以内</string>
+    <string name="T_passwordputinnew">请输入新密码，20位以内</string>
+    <string name="T_passwordputinerror">输入为空，不符合要求，请重新输入</string>
+    <string name="T_passwordtwoputinnosame">两次输入不符，请重新输入</string>
+    <string name="T_passworddeleteYN">确定删除密码？</string>
+    <string name="T_passwordputinolderror">原密码输入不正确，请重新输入</string>
+    <string name="T_passwordputinnewerror">新密码输入为空，请重新输入</string>
+    <string name="T_passwordputinforpower">请输入操作密码以获得权限</string>
+    <string name="T_passwordputinoperateerror">操作密码输入不正确，请重输入</string>
+    
+    <string name="T_oneagainexittr">再按一次退出程序</string>
+    
+    <string name="T_putinsdcard">请插入外部SD存储卡</string>
+     <string name="T_newcreatefiles">新创建文件夹结构TR</string>
+
+    
+    <string name="T_mouldsnosame">下位机当前的模具数组与平板当前的模具数组不一致，不可正常调试！请先下载所需的模具数组！</string>
+    
+    <string name="T_alarmresume">警报履历</string>
+    <string name="T_versionshow">版本显示</string>
+    <string name="T_IOwatch">IO监视</string>
+    <string name="T_Optionaloperate">选件操作</string>
+    
+    <string name="T_nctranslate">错误：S在END之前</string>
+    <string name="T_senddata">程序错误，没有添加listener，需要修改</string>
+    <!-- Strings related to all activities 所有界面共用的-->
+    
+    <string name="enable">使能</string>
+    <string name="stop">停止</string>
+    <string name="help">帮助</string>
+    <string name="f1">F1</string>
+    <string name="scramBtn1">急停1</string>
+    <string name="scramBtn2">急停2</string>
+    
+    <string name="menu_exit">退出</string>
+    <string name="menu_about">关于</string>
+    
+    <string name="OK">确定</string>
+    <string name="CANCEL">取消</string>
+    
+    <string name="touchToAdd">点击添加</string>
+    
+    <string name="menu_mainActivity">主界面</string>
+    <string name="menu_programmingActivity">编程界面</string>
+    <string name="menu_settingActivity">设定界面</string>
+    <string name="menu_parameterSettingActivity">参数设定界面</string>
+    <string name="menu_maintainGuideActivity">维护指南界面</string>
+
+
+<!-- 文件保存目录结构 -->
+  
+    <string name="mechanicalParameterFolder">机械参数</string>       
+    <string name="mouldDataFolder">模具数据</string>
+  		<string name="dataToDownloadFolder">需要下载的数据</string>  	  		
+    <string name="otherParameterFolder">其他参数</string>
+
+    <!-- Strings related to tr_activity_main 主界面-->
+    
+    <string name="tr_activity_log">TR</string>
+    <string name="tr_activity_main">铁人机器人</string>
+    <string name="tr_activity_welcome">铁人机器人</string>
+    <string name="app_name">TR</string>
+    
+    <string name="main_jbled">警报</string>
+    <string name="main_ydzled">移动中</string>
+    <string name="main_zdled">自动</string>
+    
+    <string name="main_mode_jxwz">教行位置</string>
+    <string name="main_mode_mjsjcz">模具数据操作</string>
+    <string name="main_mode_timer">设定定时器</string>
+    <string name="main_mode_counter">设定计数器</string>
+    <string name="main_mode_zycz">自由操作</string>
+    <string name="main_mode_ydcz">原点操作</string>
+    <string name="main_mode_bjcz">步进操作</string>
+    <string name="main_mode_zdcz">自动操作</string>
+    <string name="main_mode_start">开始</string>
+    <string name="main_mode_step_message">步进模式已开始\n　　需要连续执行步进动作时，请按画面上的【连续STEP】按钮;需要执行单步步进动作时，请按画面上的【单步STEP】按钮；\n　　按【×】或者【停止】按钮取消步进模式    </string>
+    
+    <string name="main_mjbh">模具编号：</string>
+    <string name="main_mjmc">名称</string>
+    
+    <string name="main_jbxx">当前警报信息</string>
+    
+    <string name="main_counter">计数器</string>
+    <string name="main_counter_outNum">取出次数</string>
+    <string name="main_counter_rejectsNum">不良品次数</string>    
+   
+    <string name="main_currentPosition">当前位置(mm)</string>
+    <string name="main_currentPosition_foot">走行(X)</string>
+    <string name="main_currentPosition_proBA">制品前后(Y)</string>
+    <string name="main_currentPosition_proUD">制品上下(Z)</string>
+    <string name="main_currentPosition_feedBA">料道前后(Ys)</string>
+    <string name="main_currentPosition_feedUD">料道上下(Zs)</string>
+    
+    <string name="main_quikeBtn_iojs">IO监视</string>
+    <string name="main_quikeBtn_wifilj">WIFI连接</string>
+    <string name="main_quikeBtn_xjcz">选件操作</string>
+    <string name="main_quikeBtn_czsc">操作手册</string>
+    <string name="main_quikeBtn_jbll">警报履历</string>
+    <string name="main_quikeBtn_yyqh">语言切换</string>
+    <string name="main_quikeBtn_mmsd">密码设定</string>
+    <string name="main_quikeBtn_szxtsj">上载系统数据</string>
+    <string name="main_quikeBtn_dqbc">读取/保存</string>
+    <string name="main_quikeBtn_fw">服务</string>
+    <string name="main_quikeBtn_bbxs">版本显示</string>
+    
+    <string name="main_quikeBtn">快捷按钮</string>
+    <string name="main_quikeBtn_read">读取/保存</string>
+    <string name="main_quikeBtn_save">保存</string>
+     <string name="main_quikeBtn_wificon">WIFI连接</string>
+    <string name="main_quikeBtn_clampOpen">夹具闭</string>
+    <string name="main_quikeBtn_badReset">不良复位</string>
+    <string name="main_quikeBtn_outReset">取出复位</string>
+    <string name="main_quikeBtn_packingReset">装箱复位</string>
+
+    <!-- Strings related to tr_activity_programming 编程类界面-->
+    
+    <string name="tr_activity_programming">TR_Programming</string>
+    
+    	<string name="tab_nc_find">查找内容：</string>
+    	<string name="tab_nc_editfind">请输入待查找的信号名</string>
+    	<string name="tab_nc_replace"> 替  换  为 ：</string>
+    	<string name="tab_nc_editreplace">请输入待替换的信号名</string>
+    	
+    	<string name="programming_lineOperate">行操作</string>
+    	<string name="programming_newcreate">新建操作</string>
+    	
+    	<string-array name="programming_array_lineOperate">
+    	    <item>上面插入一行</item>
+    	    <item>删除该行</item>
+    	    <item>下面插入一行</item>
+    	</string-array>
+  		<string name="programming_batchoperation">编辑</string>
+  		<string-array name="programming_array_batchoperation">
+    	    <item>剪切</item>
+    	    <item>复制</item>
+    	    <item>粘贴</item>
+    	    <item>删除</item>
+    	    <item>插入</item>
+    	    <item>查找/替换</item>
+    	    <item>撤销</item>
+    	    <item>恢复</item>
+    	    <item>全选</item>
+    	    <item>全不选</item>
+    	    <item>反选</item>
+    	</string-array>
+  		   
+    	<string name="programming_menu_new">新建</string>
+    	<string name="programming_menu_open">打开文件</string>
+	    <string name="programming_menu_save">保存</string>
+	    <string name="programming_menu_saveAs">另存为</string>
+	    <string name="programming_menu_del">删除</string>
+	    <string name="programming_menu_connect">连接</string>
+	    <string name="programming_menu_compile">编译解释</string>
+	    <string name="programming_menu_test">字节发送测试</string>
+	    <string name="programming_menu_jump">跳转界面</string>
+	    <string name="programming_menu_exit">退出</string>
+	    
+    	<string name="programming_deviceDefine">设备定义</string>
+	    
+		    <string-array name="programming_array_deviceDefineList">
+		        <item>实际输入</item>
+		        <item>实际输出</item>
+		        <item>中间输入</item>
+		        <item>中间输出</item>
+		        <item>数据输入</item>
+		        <item>数据输出</item>
+		        <item>掉电可保持寄存器</item>
+		        <item>掉电可保持数据寄存器</item>
+		        <item>定时器</item>
+		        <item>计数器</item>
+		        <item>位置</item>
+		        <item>警报</item>
+		        <item>选件操作</item>
+		    </string-array>
+	        
+        	<string name="programming_device_actualInput">实际输入</string>
+        	<string name="programming_device_actualOutput">实际输出</string>
+        	<string name="programming_device_middleInput">中间输入</string>
+        	<string name="programming_device_middleOutput">中间输出</string>
+        	<string name="programming_device_dataInput">数据输入</string>
+        	<string name="programming_device_dataOutput">数据输出</string>
+        	<string name="programming_device_register">掉电可保持寄存器</string>
+        	<string name="programming_device_dataRegister">掉电可保持数据寄存器</string>
+        	<string name="programming_device_timer">定时器</string>
+        	<string name="programming_device_counter">计数器</string>
+        	<string name="programming_device_position">位置</string>
+        		<string name="programming_device_position_P">标准位置P</string>
+        		<string name="programming_device_position_SP">标准装箱位置SP</string>
+        		<string name="programming_device_position_FP">自由装箱位置FP</string>
+        		<string name="programming_device_position_hint">输入范围1~200</string>
+        	<string name="programming_device_alarm">警报</string>		        	
+		    <string name="programming_device_optional">选件操作</string>	    	
+		        	
+	        <string name="programming_device_address">地址</string>
+	        <string name="programming_device_symbolName">符号名</string>
+	        <string name="programming_device_signalName">信号名</string>
+	        <string name="programming_device_note">注释</string>
+	        <string name="programming_device_set">设定项</string>
+	        <string name="programming_device_Name">名称</string>
+	        
+	    <string name="programming_ncEdit">NC编辑</string>
+	    <string name="programming_ncEdit_batchoperation">批量操作</string>
+	        <string-array name="programming_array_ncDefineList">
+		        <item>原点</item>
+		        <item>主进程</item>
+		        <item>进程1</item>
+		        <item>进程2</item>
+		        <item>进程3</item>
+		        <item>进程4</item>
+		        <item>进程5</item>
+		        <item>进程6</item>
+		    </string-array>
+	        <string name="programming_ncEdit_address">地址</string>
+	        <string name="programming_ncEdit_num">标号</string>
+	        	<string name="programming_ncEdit_num_L">L跳转</string>
+	        	<string name="programming_ncEdit_num_S">S跳转</string>
+	        	<string name="programming_ncEdit_num_Q">Q进程</string>
+	        	<string name="programming_ncEdit_num_hint">输入范围0~999</string>
+	        <string name="programming_ncEdit_order">命令</string>
+	        	<string name="programming_ncEdit_order_alarm_codeToChoose">警报代码选择</string>
+	        	<string name="programming_ncEdit_order_alarm_code">警报代码</string>
+	        	<string name="programming_ncEdit_order_alarm_info">警报信息</string>
+	        	<string name="programming_ncEdit_order_alarm_XXX">警报XXX:</string>
+	        	
+	        	<string name="programming_ncEdit_order_counter_counterToChoose">计数器选择</string>
+	        	<string name="programming_ncEdit_order_counter_resultToChoose">计数结果选择</string>
+	        	
+	        	<string name="programming_ncEdit_order_orderPreviewArea">指令预览区域</string>
+	        		        	<string name="programming_ncEdit_order_goto">GOTO程序内跳转</string>
+	        	<string name="programming_ncEdit_order_call">CALL程序外跳转</string>
+	        	
+	        	<string name="programming_ncEdit_order_if_TypeToChoose">条件类型选择</string>
+	        	<string name="programming_ncEdit_order_if_nameNote">条件符号名和注释</string>
+	        	<string name="programming_ncEdit_order_if_comparisonValue">条件比较值</string>
+	        	<string name="programming_ncEdit_order_if_logicalToChoose">逻辑关系选择</string>
+	        	<string name="programming_ncEdit_order_if_dataRelation">数据关系</string>
+	        	<string name="programming_ncEdit_order_if_addInput">增加输入</string>
+	        	<string name="programming_ncEdit_order_if_cancelInput">撤销输入</string>
+	        	<string name="programming_ncEdit_order_if_hint">输入范围0~65536</string>
+	        	
+		        	<string-array name="IF1">
+				        <item>实际输入</item>
+				        <item>实际输出</item>
+				        <item>中间输入</item>
+				        <item>中间输出</item>
+				        <item>数据输入</item>
+				        <item>数据输出</item>
+				        <item>掉电可保持寄存器</item>
+				        <item>掉电可保持数据寄存器</item>
+				    </string-array>
+				    
+				    <string-array name="IF2">
+				        <item>=</item>
+				        <item>!=</item>
+				        <item>&gt;</item>
+				        <item>&lt;</item>
+				    </string-array>
+	        	
+	        	<string name="programming_ncEdit_order_ifthen_jumpToChoose">跳转选择</string>
+
+	        	<string name="programming_ncEdit_order_ifthen_jump">跳转</string>
+	        	
+	        	<string name="programming_ncEdit_order_move_postion">选择位置</string>
+	        	<string name="programming_ncEdit_order_move_P">标准点位置</string>
+	        	<string name="programming_ncEdit_order_move_SP">标准装箱位置</string>
+	        	<string name="programming_ncEdit_order_move_FP">自由装箱位置</string>
+	        	
+	        	<string name="programming_ncEdit_order_out_typeToChoose">输出类型选择</string>
+	        	<string name="programming_ncEdit_order_out_name">输出设备符号和名称</string>
+	        	<string name="programming_ncEdit_order_out_resultToChoose">输出结果选择</string>
+	        	<string name="programming_ncEdit_order_out_addOutput">增加输出</string>
+				<string name="programming_ncEdit_order_out_cancelOutput">撤销输出</string>	
+	        	<string name="programming_ncEdit_order_out_hint">输入范围0~65536</string>
+	        	
+	        	    <string-array name="OUT">
+				        <item>实际输出</item>
+				        <item>中间输出</item>
+				        <item>数据输出</item>  
+				        <item>掉电可保持寄存器</item> 
+				        <item>掉电可保持数据寄存器</item>      
+				    </string-array>
+	        	
+	        	<string name="programming_ncEdit_order_sequential_choose">跳转指令选择</string>
+	        	
+	        	<string name="programming_ncEdit_order_wait_typeChoose">定时器类型选择</string>
+	        	<string name="programming_ncEdit_order_wait_fixedTimer">固定定时器</string>
+	        	<string name="programming_ncEdit_order_wait_setTimer">可设定定时器</string>
+	        	<string name="programming_ncEdit_order_wait_pos">等待位置</string>
+	        	<string name="programming_ncEdit_order_wait_hint">输入范围0.00s~99.99s</string>
+	        	
+	        <string name="programming_ncEdit_operate">操作</string>
+	        <string name="programming_ncEdit_note">注释</string>
+	    
+	    <string name="programming_tableEdit">Table编辑</string>
+	       <string-array name="programming_array_tableDefineList">
+		        <item>T编辑1</item>
+		        <item>T编辑2</item>
+		        <item>T编辑3</item>
+		        <item>T编辑4</item>
+		        <item>T编辑5</item>
+		        <item>T编辑6</item>
+		        <item>T编辑7</item>
+		        <item>T编辑8</item>
+		    </string-array>
+	    	<string name="programming_tableEdit_num">序号</string>
+	        <string name="programming_tableEdit_inPut">输入</string>
+	        <string name="programming_tableEdit_outPut">输出</string>
+	        <string name="programming_tableEdit_note">注释</string>
+
+         <string name="programming_nc_food">走行 "        "X轴 A1</string>
+    	<string name="programming_productBA">制品前后 Y轴 A2</string>
+    	<string name="programming_productUD">制品上下 Z轴 A4</string>
+    	<string name="programming_feedertroughBA">料道前后 H轴 A3</string>
+    	<string name="programming_feedertroughUD">料道上下 L轴 A5</string>
+    	<string name="programming_PATH">PATH量设定</string>
+    	
+    	<string name="programming_bxzlxz">并行指令选择</string>
+    	
+    	<string name="programming_nc_ydz">移动到</string>
+    	<string name="programming_nc_cxyn">程序预览</string>
+    	<string name="programming_nc_ydwz">原点位置</string>
+    	<string name="programming_nc_zqztz">轴强制停止</string>
+    	<string name="programming_nc_jjssd">加减速设定</string>
+    	
+    <!-- Strings related to tr_activity_setting 设定类界面-->
+    
+    <string name="tr_activity_setting">TR_Setting</string>
+    
+    	<string name="setting_pos_speed">位置和速度</string>
+    	<string name="setting_timer">定时器</string>
+    	<string name="setting_presetCounter">预置计数器</string>
+    	<string name="setting_free">自由操作</string>
+    	<string name="setting_Option">选项操作</string>
+    	<string name="setting_mould">模具数据</string>
+    	<string name="setting_otherFunction">其他功能</string>
+    	
+    	<string name="setting_mouldnum">MAIN基板模具编号</string>
+    	<string name="setting_mouldname">MAIN基板模具名称</string>
+    	<string name="setting_mouldtime">MAIN基板模具数据修改时间</string>
+    	<string name="setting_mouldall">模具数据总数</string>
+    	
+    	<string name="setting_mouldxh1">序号</string>
+    	<string name="setting_mouldnum1">模具数据编号</string>
+    	<string name="setting_mouldname1">模具数据名称</string>
+    	<string name="setting_mouldtime1">模具数据最后修改时间</string>
+    	
+    	<string name="setting_mouldonlyread">只读</string>
+    	<string name="setting_mouldedit">编辑</string>
+    	
+    	<string name="setting_editmouldnum">请添加模具数据编号</string>
+    	<string name="setting_editmouldname">请添加模具数据名称</string>
+    	<string name="setting_bz">标准</string>
+    	<string name="setting_fb">非标</string>
+    	
+    	<string name="setting_editmouldss">请输入模具数据编号或名称搜索</string>
+    	<string name="setting_mouldss">搜索</string>
+    	<string name="setting_toeeprom">写入伺服EEPROM</string>
+    	
+    	<string name="setting_feedertrough">料道</string>
+    	<string name="setting_product">制品</string>
+    	<string name="setting_foot">走行(X)</string>
+    	<string name="setting_productBA">制品前后(Y)</string>
+    	<string name="setting_productUD">制品上下(Z)</string>
+    	<string name="setting_feedertroughBA">料道前后(Ys)</string>
+    	<string name="setting_feedertroughUD">料道上下(Zs)</string>
+    	<string name="setting_freeTeach">自由教行</string>
+    	<string name="setting_onerememberPos">单轴位置记忆</string>
+    	<string name="setting_allrememberPos">全部位置记忆</string>
+    	<string name="setting_currentValue">当前值：</string>
+    	<string name="ds_p_Value">低速</string>
+    	<string name="gs_p_Value">高速</string>
+    	<string name="mjs_p_Value">慢加速</string>
+    	<string name="kjs_p_Value">快加速</string>
+    	<string name="mjs_p_Value1">慢减速</string>
+    	<string name="kjs_p_Value1">快减速</string>
+   		
+    	<string name="setting_free_mechanicalPos">机械位置状态</string>
+    	<string name="setting_free_axle">轴</string>
+    	<string name="setting_move_axle">选择轴</string>
+    	<string name="setting_free_currentPos">当前位置(mm)</string>
+    	<string name="setting_free_originLimit">原点限位</string>
+    	<string name="setting_iostate_operate">I/O状态</string>
+    	<string name="setting_free_operate">自由操作</string>
+    	<string name="setting_optional_operate">选项操作</string>
+    	
+        <string name="setting_reset">复位</string>
+        <string name="setting_symbol">符号</string>
+        <string name="setting_name">名称</string>
+        <string name="setting_counter_currentValue">当前值</string>
+        <string name="setting_setValue">设定值</string>
+        
+        <string name="setting_timerSet">定时器设定</string>
+        <string name="setting_timer_setValue">设定值(s)</string>
+        <string name="setting_timerNote">定时器注释信息</string>
+        <string name="setting_timerGraph">定时器图示</string>
+		<string name="setting_area">区域</string>
+		
+			        <string-array name="free_option">
+				        <item>自由操作</item>
+				        <item>选项操作</item> 
+				    </string-array>
+				    
+			  		<string-array name="mouldData">
+			  		    <item>读取该段数据</item>
+				        <item>删除该段数据</item>
+				        <item>保存数据到该段</item> 
+				    </string-array>   
+       
+       <string name="clearmoulddata">清除模具设定数据</string>  
+	    <string name="usermode">用户模式设定</string>    
+		<string name="userdata">用户数据设定</string> 	        
+        <string name="allspeed">全体速度设定</string> 
+        <string name="clearbf">备份清除</string> 
+
+        <string name="setting_qcc">取出侧</string>
+        <string name="nulldata">没有数据</string> 
+        
+    <!-- Strings related to tr_activity_parameter_setting 参数设定类界面-->
+    
+    <string name="tr_parameter_setting">TR_Parameter_Setting</string>
+    
+        <string name="parameterSetting_mechanicalPara">机械参数</string>
+        <string name="parameterSetting_servoPara">伺服参数</string>
+        <string name="parameterSetting_downloadManagement">上下载管理</string>
+        <string name="parameterSetting_otherFunction">其他功能</string>
+    
+    <string name="download">下载管理</string>
+    
+    <string name="parameterSetting_read">读出</string>
+	<string name="parameterSetting_write">写入</string>
+	
+	<string name="parameterSetting_num">编号</string>
+    <string name="parameterSetting_content">内容</string>
+    <string name="parameterSetting_setValue">设定值</string>
+    <string name="parameterSetting_currentValue">当前值</string>
+    <string name="parameterSetting_operate">操作</string>    
+    <string name="parameterSetting_note">说明</string>
+    <string name="parameterSetting_axle1">轴1</string>   
+	<string name="parameterSetting_axle2">轴2</string>
+	<string name="parameterSetting_axle3">轴3</string>
+	<string name="parameterSetting_axle4">轴4</string>
+	<string name="parameterSetting_axle5">轴5</string>
+	<string name="parameterSetting_axle6">轴6</string>
+	<string name="parameterSetting_axle7">轴7</string>
+	<string name="parameterSetting_axle8">轴8</string>  
+    <string name="parameterSetting_saveToMain">保存</string>
+    <string name="parameterSetting_saveasToMain">另存为</string>
+    <string name="parameterSetting_deleteMain">删除</string>
+    
+    <string name="getdata">提取数据</string>
+    <string name="shortkey">IO监视设定</string> 
+        <string name="shortkey_Num">行号</string>  
+        <string name="shortkey_Name">名称</string>
+   <string name="timeset">时效设定</string> 
+        <string name="year">年</string> 
+        <string name="month">月</string> 
+        <string name="date">日</string> 
+        <string name="week">星期</string>
+        <string name="hour">时</string> 
+        <string name="min">分</string> 
+        <string name="sec">秒</string>
+        <string name="radiotimeset">启动时效设定</string>
+        <string name="type">解除类型</string>
+        <string name="para">解除参数</string>
+        
+    <string name="ckBox_CPU">CPU系统程序</string>
+    <string name="ckBox_PPU">PPU系统程序</string>
+    <string name="ckBox_SPU">SPU系统程序</string>
+    <string name="ckBox_IO">IO系统程序</string>
+    <string name="ckBox_mould">模具数据</string>
+    <string name="ckBox_mechanical">机械参数</string>
+    <string name="ckBox_sys">系统参数</string>    
+    <string name="downloadToMain">下载到基板</string>  
+    <string name="readFromMain">从基板读出</string> 
+    <string name="fromsd"> 从SD卡下载</string> 
+    <string name="tosd"> 上载到SD卡</string>
+    
+     <string name="selectAll_downloadManagement">全选</string>
+     <string name="cancelAll_downloadManagement">取消</string>
+     
+     <string name="parameterSetting_address">地址：</string> 
+     <string name="parameterSetting_editaddress">请输入地址</string>
+     <string name="parameterSetting_sl">十六进制</string>
+     <string name="parameterSetting_length">长度：</string>
+     <string name="parameterSetting_editlength">请输入长度</string>
+     <string name="parameterSetting_s">十进制   </string>
+     
+     <string name="parameterSetting_setstate">设定状态 </string>
+     <string name="parameterSetting_setnum">设定数值 </string> 
+    <!-- Strings related to tr_activity_maintainguide 指南类界面-->
+    
+     <string name="alarmzbnum">警报编号</string>
+    <string name="alarmzbName">警报名称</string>
+    <string name="alarmzbmsg">警报信息</string>
+    
+    <string name="tr_activity_maintainGuide">TR_MaintainGuide</string>
+    <string name="io_address">地址</string>
+    <string name="i_symbolName">输入设备符号名</string>
+    <string name="i_signalName">输入设备信号名</string>
+    <string name="i_state">输入设备状态</string>
+    <string name="o_symbolName">输出设备符号名</string>
+    <string name="o_signalName">输出设备信号名</string>
+    <string name="o_state">输出设备状态</string>
+    
+    <string name="alarm_maintainGuide">警报履历</string>
+    <string name="sz_maintainGuide">周期监视</string>
+    <string name="xzalarm_maintainGuide">警报总表</string>
+    <string name="version_maintainGuide">版本显示</string>
+    <string name="io_maintainGuide">IO监视</string>
+    <string name="da_maintainGuide">DA监视</string>
+    <string name="zk_maintainGuide">导入字库</string>
+    <string name="password_maintainGuide">密码设定</string>
+    <string name="maintime_maintainGuide">MAIN基板时间设定</string>
+    <string name="maintime_maincurtime">MAIN基板当前时间:</string>
+    
+    <string name="zh_maintainGuide">账号：</string>
+    <string name="editzh_maintainGuide">请输入账号</string>
+    <string name="ma_maintainGuide">密码：</string>
+    <string name="editma_maintainGuide">请输入密码</string>
+    <string name="zcxzh_maintainGuide">注册新账号</string>
+    <string name="wjma_maintainGuide">忘记密码？</string>
+    
+    <string name="maxz_maintainGuide">密码选择</string>
+    <string name="czma_maintainGuide">操作密码</string>
+    <string name="sdma_maintainGuide">设定密码</string>
+    <string name="bcma_maintainGuide">编程密码</string>
+    <string name="macz_maintainGuide">密码操作</string>
+    <string name="cjma_maintainGuide">创建密码</string>
+    <string name="xgma_maintainGuide">修改密码</string>
+    <string name="scma_maintainGuide">删除密码</string>
+    
+	<string name="moudle_data">模具数据</string>
+	<string name="move_teach">教行</string>
+	<string name="action_modify">动作修改</string>
+	<string name="hand_operation">手动操作</string>
+	<string name="other_setting">其它设定</string>
+    
+</resources>

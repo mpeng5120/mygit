@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_activity_main"
+        android:title="@string/menu_mainActivity"/>
+    <item
+        android:id="@+id/menu_activity_programming"
+        android:title="@string/menu_programmingActivity"/>
+    <item
+        android:id="@+id/menu_activity_setting"
+        android:title="@string/menu_settingActivity"/>
+    <item
+        android:id="@+id/menu_activity_parameter_setting"
+        android:title="@string/menu_parameterSettingActivity"/>
+    <item
+        android:id="@+id/menu_activity_maintainGuide"
+        android:title="@string/menu_maintainGuideActivity"
+        android:enabled="false"/>
+
+</menu>

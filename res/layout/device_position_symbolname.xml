@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <RadioGroup
+        android:id="@+id/radioGroupPos"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp" >
+
+        <RadioButton
+            android:id="@+id/radioP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/programming_device_position_P" />
+
+        <RadioButton
+            android:id="@+id/radioSP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/programming_device_position_SP" />
+
+        <RadioButton
+            android:id="@+id/radioFP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/programming_device_position_FP" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editText_pos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:digits="1234567890"
+        android:hint="@string/programming_device_position_hint"
+        android:inputType="phone"
+        android:maxLength="3" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

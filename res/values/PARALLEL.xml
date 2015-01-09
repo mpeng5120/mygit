@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="PARALLEL">
+        <item>SEQ001</item>
+        <item>SEQ002</item>
+        <item>SEQ003</item>
+       
+    </string-array>
+</resources>
